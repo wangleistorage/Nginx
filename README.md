@@ -274,3 +274,22 @@ mv filetype.vim ~/.vim/filetype.vim
 返回: "curl/7.29.0"
 ```
 
+<font size=4>$request_time</font>
+```
+参数: $request_time 
+解释: 返回从接受用户请求的第一个字节到发送完响应数据的时间，即包括接收请求数据时间、程序响应时间、输出响应数据时间。
+访问: curl http://test.wanglei.com/192.168.1.200?a=10 -I
+返回: "0.000"
+```
+
+<font size=4>$response_time</font>
+```
+参数: $response_time
+解释: 返回从Nginx向后端（php-cgi)建立连接开始到接受完数据然后关闭连接为止的时间。
+访问: curl http://test.wanglei.com/192.168.1.200?a=10 -I
+返回: "0.000"
+```
+
+
+
+
