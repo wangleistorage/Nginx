@@ -286,11 +286,8 @@ mv filetype.vim ~/.vim/filetype.vim
 <font size=4>$response_time</font>
 ```
 参数: $response_time
-解释: 返回从Nginx向后端（php-cgi)建立连接开始到接受完数据然后关闭连接为止的时间。
+解释: 返回从Nginx向后端(upstream)建立连接开始到接受完数据然后关闭连接为止的时间。
 访问: curl http://test.wanglei.com/192.168.1.200?a=10 -I
 返回: "0.000"
 ```
-
-
-
 
