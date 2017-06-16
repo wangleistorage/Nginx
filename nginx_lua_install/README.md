@@ -34,8 +34,10 @@ make && make install
 ![lua_module](./img/lua_module.png)
 
 5. 启动tengine
+```
 sudo /home/wanglei/tengine/sbin/nginx -t
 sudo /home/wanglei/tengine/sbin/nginx
+```
 
 6. 访问进行测试lua是否生效
 
